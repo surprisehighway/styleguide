@@ -1,0 +1,148 @@
+/* 
+    Main Layout 
+    Replace markup with project classes if you prefer 
+*/
+.sg-container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.sg-main {
+    padding: 15px;
+}
+.sg-sidebar {
+    padding: 15px;
+}
+@media (min-width: 992px) {
+    .sg-main {
+        float: left;
+        width: 70%;
+        padding: 40px 0;
+    }
+    .sg-sidebar {
+        float: right;
+        width: 25%;
+        padding: 92px 0 40px;    
+    }
+}
+
+/* 
+---------------------------------------------------------------------------
+    Styleguide CSS
+    No need to edit below, but feel free
+---------------------------------------------------------------------------
+*/
+
+/* 
+    Styleguide Typography 
+*/
+.sg-h1, .sg-h2, .sg-h3, .sg-h4, .sg-descr p, .sg-sidebar li, .sg-source-btn {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    border: none;
+}
+.sg-descr p, .sg-sidebar li {
+    line-height: 1.5;
+}
+
+.sg-h1 {
+    font-size: 22px;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
+.sg-h1:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+.sg-h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.sg-h3, .sg-h4, .sg-h5, .sg-h6 {
+    font-size: 15px;
+}
+.sg-descr {
+        padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+}
+/* 
+    Markup examples 
+*/
+.sg-section {
+    margin-bottom: 50px;
+}
+.sg-demo {
+    position: relative;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.sg-source {
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+}
+.sg-demo .sg-source-btn {
+    color: #555;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    padding: 7px 15px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.sg-demo .sg-source-btn:hover {
+    background: #ddd;
+    color: #000;
+
+}
+.sg-source .sg-copy-btn:hover {
+    background: #ddd;
+    color: #000;
+}
+
+/* 
+    Sidebar menu 
+*/
+.sg-sidebar ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sg-sidebar li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0 0 0 15px;
+}
+.sg-sidebar li li li {
+    display: none;
+}
+
+/* 
+    Clearfix 
+*/
+.sg-container:before,
+.sg-container:after {
+    content: " ";
+    display: table;
+}
+.sg-container:after {
+    clear: both;
+}
+.sg-container {
+    *zoom: 1;
+}
+.sg-hide {
+    display: none !important;
+}

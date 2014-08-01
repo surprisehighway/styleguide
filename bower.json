@@ -1,0 +1,13 @@
+{
+  "name": "base-patterns",
+  "version": "0.0.1",
+  "authors": [
+    "Mike Kroll <mike@surprisehighway.com>"
+  ],
+  "homepage": "http://surprisehighway.com",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}

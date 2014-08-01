@@ -1,0 +1,21 @@
+{
+    "name": "surprisehighway/base-patterns",
+    "authors": [
+        {
+            "name": "Mike Kroll",
+            "email": "mike@surprisehighway.com"
+        }
+    ],
+    "config" : {
+        "vendor-dir": "src/vendor"
+    },
+    "require" : {
+        "mustangostang/spyc": "0.5.*@dev",
+        "michelf/php-markdown": "1.4.1"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "" : "src/"
+        }
+    }
+}
